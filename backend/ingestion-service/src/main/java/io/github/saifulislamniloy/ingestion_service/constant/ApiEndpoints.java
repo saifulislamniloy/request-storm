@@ -6,5 +6,6 @@ public class ApiEndpoints {
 
 
     public static final String CREATE_INGESTION_RECORD = "/ingestion";
+    public static final String GET_LIST_OF_INGESTION_RECORD = "/ingestion";
 
 }
