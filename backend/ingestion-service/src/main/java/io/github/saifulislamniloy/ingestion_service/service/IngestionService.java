@@ -1,6 +1,6 @@
 package io.github.saifulislamniloy.ingestion_service.service;
 
-import io.github.saifulislamniloy.ingestion_service.dto.IngestionRequestDTO;
+import io.github.saifulislamniloy.ingestion_service.dto.request.IngestionRequestDTO;
 
 public interface IngestionService {
 

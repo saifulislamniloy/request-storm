@@ -1,4 +1,4 @@
-package io.github.saifulislamniloy.ingestion_service.dto;
+package io.github.saifulislamniloy.ingestion_service.dto.request;
 
 import lombok.Data;
 

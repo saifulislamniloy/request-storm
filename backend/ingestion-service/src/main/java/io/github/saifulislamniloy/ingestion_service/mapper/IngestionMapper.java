@@ -1,6 +1,6 @@
 package io.github.saifulislamniloy.ingestion_service.mapper;
 
-import io.github.saifulislamniloy.ingestion_service.dto.IngestionRequestDTO;
+import io.github.saifulislamniloy.ingestion_service.dto.request.IngestionRequestDTO;
 import io.github.saifulislamniloy.ingestion_service.entity.IngestionRecord;
 
 import java.time.Instant;

@@ -1,6 +1,6 @@
 package io.github.saifulislamniloy.ingestion_service.service.impl;
 
-import io.github.saifulislamniloy.ingestion_service.dto.IngestionRequestDTO;
+import io.github.saifulislamniloy.ingestion_service.dto.request.IngestionRequestDTO;
 import io.github.saifulislamniloy.ingestion_service.mapper.IngestionMapper;
 import io.github.saifulislamniloy.ingestion_service.repository.IngestionRepository;
 import io.github.saifulislamniloy.ingestion_service.service.IngestionService;

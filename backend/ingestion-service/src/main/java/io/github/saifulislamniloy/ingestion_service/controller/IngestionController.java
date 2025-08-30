@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.saifulislamniloy.ingestion_service.dto.IngestionRequestDTO;
+import io.github.saifulislamniloy.ingestion_service.dto.request.IngestionRequestDTO;
 import io.github.saifulislamniloy.ingestion_service.service.IngestionService;
 
 import static io.github.saifulislamniloy.ingestion_service.constant.ApiEndpoints.*;
@@ -24,6 +24,13 @@ public class IngestionController {
     public ResponseEntity<String> create(@RequestBody IngestionRequestDTO ingestionRequestDTO) {
 
         ingestionService.create(ingestionRequestDTO);
+        return ResponseEntity.ok(DATA_SAVE_SUCCESSFUL);
+    }
+
+    @GetMapping(GET_LIST_OF_INGESTION_RECORD)
+    public ResponseEntity<String> getList(@RequestBody IngestionRequestDTO ingestionRequestDTO) {
+
+        ingestionService.getList();
         return ResponseEntity.ok(DATA_SAVE_SUCCESSFUL);
     }
 }
