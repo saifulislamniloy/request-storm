@@ -7,7 +7,7 @@ on:
 env:
   REGISTRY: ghcr.io
   # Use one image name per service in a monorepo
-  IMAGE: ghcr.io/${{ toLower(github.repository_owner) }}/ingestion-service
+  IMAGE: ghcr.io/${{ github.repository_owner }}/ingestion-service
 
 jobs:
   build-and-push:
