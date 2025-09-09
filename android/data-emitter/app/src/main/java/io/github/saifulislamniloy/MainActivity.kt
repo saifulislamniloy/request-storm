@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        /*findViewById<Button>(R.id.startBtn).setOnClickListener {
+        findViewById<Button>(R.id.startBtn).setOnClickListener {
             val intent = Intent(this, RandomSenderService::class.java)
             if (Build.VERSION.SDK_INT >= 26) {
                 startForegroundService(intent)
@@ -38,6 +38,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.stopBtn).setOnClickListener {
             stopService(Intent(this, RandomSenderService::class.java))
-        }*/
+        }
     }
 }
