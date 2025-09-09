@@ -59,3 +59,4 @@ out/
 /android/**/.externalNativeBuild
 /android/**/.cxx
 
+/android/data-emitter/**/config.properties
